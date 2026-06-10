@@ -361,6 +361,7 @@ img{
 .yourcart{
     font-weight: lighter;
     font-size: 36px;
+    color: #2B443B;
 }
 
 .keepshoppingcart{
@@ -376,6 +377,9 @@ img{
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 20px;
+
+    color: #5B2432;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -769,6 +773,80 @@ img{
 
     .price{
         font-size: 20px;
+    }
+
+    /* CART PAGE */
+    .cartheader{
+        padding: 20px;
+    }
+
+    .yourcart{
+        font-weight: lighter;
+        font-size: 20px;
+    }
+
+    .keepshoppingcart{
+        font-size: 12px;
+        color:#C35671;
+    }
+
+    .cartlabel{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+
+    .listitem{
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+    .listitem img{
+        width: 118px;
+        height: 118px;
+        border-radius: 15px;
+    }
+
+    .listinfo{
+        margin-left: 20px;
+        padding-top: 10px;
+        align-items: flex-start;
+    }
+
+
+
+    .listinfo h3{
+        color: #2B443B;
+        font-weight: lighter;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .listinfo p{
+        color: #5B2432;
+        font-weight: lighter;
+        font-size: 16;
+        margin-top: 0px;
+    }
+
+    .itemprice{
+        color: #5B2432;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin-left: auto;
+        text-align: right;
+    }
+
+    .totalprice{
+        font-size: 20px;
+        padding-right: 20px;
+    }
+
+    .checkoutbtnalign{
+        margin: 20px;
     }
 
 }  

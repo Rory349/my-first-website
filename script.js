@@ -25,7 +25,7 @@ plusBtn.addEventListener("click", () => {
     if (mbPrice) {
         mbPrice.textContent = "$" + (quantity * 95) + ".00 AUD";
     }
-    totalPrice.textContent = "AU$" + ((quantitymb * 95) + (quantity * 70));
+    totalPrice.textContent = "TOTAL: AU$" + ((quantitymb * 95) + (quantity * 70));
 });
 
 minusBtn.addEventListener("click", () => {
@@ -42,7 +42,7 @@ minusBtn.addEventListener("click", () => {
         if (mbPrice) {
             mbPrice.textContent = "$" + (quantity * 95) + ".00 AUD";
         }
-        totalPrice.textContent = "AU$" + ((quantitymb * 95) + (quantity * 70));
+        totalPrice.textContent = "TOTAL: AU$" + ((quantitymb * 95) + (quantity * 70));
     }
 });
 
@@ -53,7 +53,7 @@ plusBtnMb.addEventListener("click", () => {
     quantityMb.textContent = quantitymb;
 
     mbPriceCart.textContent = "$" + (quantitymb * 95) + ".00 AUD";
-    totalPrice.textContent = "AU$" + ((quantitymb * 95) + (quantity * 70));
+    totalPrice.textContent = "TOTAL: AU$" + ((quantitymb * 95) + (quantity * 70));
 });
 
 minusBtnMb.addEventListener("click", () => {
@@ -64,7 +64,7 @@ minusBtnMb.addEventListener("click", () => {
         quantityMb.textContent = quantitymb;
 
         mbPriceCart.textContent = "$" + (quantitymb * 95) + ".00 AUD";
-        totalPrice.textContent = "AU$" + ((quantitymb * 95) + (quantity * 70));
+        totalPrice.textContent = "TOTAL: AU$" + ((quantitymb * 95) + (quantity * 70));
     }
 });
 
